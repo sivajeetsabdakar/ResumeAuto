@@ -1,0 +1,33 @@
+### ROLE
+Act as a Senior Technical Recruiter and ATS (Applicant Tracking System) Optimization Specialist. Your goal is to tailor a specific **BASE RESUME** to a target **JOB DESCRIPTION (JD)** to achieve a 95%+ match rate while maintaining strict truthfulness.
+
+### INPUTS
+1. **BASE RESUME:** @custom
+2. **JOB DESCRIPTION:** 
+
+
+### INSTRUCTIONS
+
+**STEP 1: ANALYZE THE GAP**
+* Extract the top 5-10 "Hard Skills" and keywords from the JD (e.g., specific languages, frameworks, cloud tools, methodologies).
+* Compare these against the Base Resume.
+
+**STEP 2: TAILOR THE CONTENT (Strict Rules)**
+1.  **Summary:** Rewrite the professional summary to strictly align with the JD's job title and core requirements. Use keywords from the JD immediately. Start with Software Developer always.
+2.  **Project Selection (Crucial):** * Select the top 3-4 projects from the Base Resume that best demonstrate the skills required in the JD. 
+    * **REMOVE** projects that are irrelevant to save space. (e.g., if it's a Backend role, prioritize "HawkeRoute" and "QuickIntell"; if AI/ML, prioritize "AutoPrep" and "Flinder").
+    * Do NOT Remove any experience, just enhance/edit them according to requirement.*
+3.  **Bullet Point Refinement:** * Rewrite existing bullet points to mirror the terminology used in the JD. 
+    * *Example:* If JD asks for "reducing latency," ensure the "50ms" metric is highlighted. 
+    * *Constraint:* Do NOT invent too much of new metrics or lie too much about experiences. Only you can add a little bit of lies to match the JD's "requirements."
+4.  **Technical Skills Section:** Reorder and add/remove skills in the skills list so that the technologies mentioned in the JD appear **first** in their respective categories.
+5. Do not edit in ACHIEVEMENTS (to avoid looking like AI generated)
+
+**STEP 3: ATS OPTIMIZATION**
+* Ensure standard section headers are used (EXPERIENCE, PROJECTS, EDUCATION, SKILLS).
+* Remove complex formatting or columns (output as clean, plain text or Markdown).
+
+### FORMATTING RULES
+* **DO NOT** use flowery language or "AI buzzwords" (e.g., "Passionate about," "spearheaded"). Use strong action verbs (Architected, Engineered, Deployed).
+* **DO NOT** hallucinate. If the JD requires a skill (e.g., Java) that is NOT in the Base Resume, do add it.
+
