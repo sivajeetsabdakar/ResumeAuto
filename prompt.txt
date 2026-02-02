@@ -4,39 +4,9 @@ Act as a Senior Technical Recruiter and ATS (Applicant Tracking System) Optimiza
 ### INPUTS
 1. **BASE RESUME:** @custom
 2. **JOB DESCRIPTION:** 
-ob Description
-Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.
 
-Meet the Team
- 
 
-At Cisco, AI isn’t just a technology—it’s a movement. Our AI teams are shaping the future by embedding intelligence into collaboration, networking, security, observability, and beyond. Our teams focus on building next-generation businesses powered by AI. We are a forward-thinking team of engineers, researchers, and innovators working at the intersection of deep learning, generative AI, and cutting-edge product design. The vibe is fast-paced, entrepreneurial, and collaborative, where every day offers the opportunity to create meaningful solutions with massive global impact.
 
-Your Impact
-
-As a Machine Learning Engineer, you will be at the forefront of Cisco’s generative AI strategy. You will design, train, and optimize large language models (LLMs) and multimodal AI systems to address ambitious real-world challenges across industries. You will drive innovation by developing scalable, high-performing AI solutions, collaborating across engineering and product teams, and guiding research into emerging technologies. Success in this role means delivering impactful AI capabilities that transform Cisco’s products and customer experiences while mentoring peers and evangelizing AI innovation both inside and outside the company.
- 
-
-Minimum Qualifications
-
-Students graduating in 2027
-Programming experience with Java, C++, Python, or related languages
-Hands-on experience in natural language processing, computer vision, or multimodal interaction.
-Experience using deep learning frameworks to train, fine-tune, and optimize GenAI models for performance and scalability.
-Experience designing and deploying proof-of-concepts and production-ready AI systems.
- 
-Preferred Qualifications
-
-Strong background in system design, software development, and production deployment at scale.
-Ability to transform ambiguous requirements into actionable deep learning solutions.
-Familiarity with state-of-the-art models and methods (e.g., CLIP, DALLE 2, diffusion models).
-Demonstrated contributions to the AI/ML community through top-tier publications, open-source projects, or leaderboard competitions.
-Why Cisco? 
-At Cisco, we’re revolutionizing how data and infrastructure connect and protect organizations in the AI era – and beyond. We’ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint.
-
-Fueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you’ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere. 
-
-We are Cisco, and our power starts with you. 
 
 
 ### INSTRUCTIONS
@@ -66,3 +36,6 @@ We are Cisco, and our power starts with you.
 * **DO NOT** hallucinate. 
 * **AVOID REPITITION** of words, phrases and tone.
 
+also delete any tex file in @coverlettet generate a tex file cover letter in @coverletter (max 3 paras keep no placeholders in it)
+
+then run custom/build-clean.bat and coverletter/build-and-copy.bat
