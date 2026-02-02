@@ -1,41 +1,18 @@
-\documentclass[11pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage{geometry}
-
-% ============================================
-% RESUME FORMAT TOGGLE
-% Set to true for 2-page A4 resume, false for single-page letter format
-% ============================================
-\newif\ifTwoPage
-\TwoPagetrue  % Change to \TwoPagefalse for single-page format
-% ============================================
-
-\ifTwoPage
-  % 2-page A4 format
-  \geometry{
-    a4paper,
-    left=0.5in,
-    right=0.5in,
-    top=0.5in,
-    bottom=0.5in,
-    includeheadfoot
-  }
-\else
-  % Single-page letter format (original - gets cropped)
-  % Set letter paper width (8.5 inches), very large height that will be cropped
-  % Margins styled like Jake's Resume template - tight 0.5in margins
-  \geometry{
-    letterpaper,
-    paperwidth=8.5in,
-    paperheight=50in,
-    left=0.5in,
-    right=0.5in,
-    top=0.5in,
-    bottom=0.5in,
-    includeheadfoot
-  }
-\fi
+% Set letter paper width (8.5 inches), very large height that will be cropped
+% Margins styled like Jake's Resume template - tight 0.5in margins
+\geometry{
+  paperwidth=8.5in,
+  paperheight=50in,
+  left=0.5in,
+  right=0.5in,
+  top=0.5in,
+  bottom=0.5in,
+  includeheadfoot
+}
 \usepackage{titlesec}
 \usepackage{atbegshi}
 \usepackage{marvosym}

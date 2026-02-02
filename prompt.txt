@@ -4,44 +4,51 @@ Act as a Senior Technical Recruiter and ATS (Applicant Tracking System) Optimiza
 ### INPUTS
 1. **BASE RESUME:** @custom
 2. **JOB DESCRIPTION:** 
-MongoDB’s mission is to empower innovators to create, transform, and disrupt industries by unleashing the power of software and data. We enable organizations of all sizes to easily build, scale, and run modern applications by helping them modernize legacy workloads, embrace innovation, and unleash AI. Our industry-leading developer data platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available in more than 115 regions across AWS, Google Cloud, and Microsoft Azure. Atlas allows customers to build anywhere—on the edge, on premises, or across cloud providers. With offices worldwide and over 175,000 developers joining MongoDB every month, it’s no wonder that leading organizations, like Samsung and Toyota, trust MongoDB to build next-generation, AI-powered applications.
+ob Description
+Please note this posting is to advertise potential job opportunities. This exact role may not be open today but could open in the near future. When you apply, a Cisco representative may contact you directly if a relevant position opens.
 
-We’re seeking curious minds like yours to collaborate with full-time engineers and cross functional teammates, learn development standard methodologies, and gain practical software engineering experience.
+Meet the Team
+ 
 
-We have two teams that we are hiring for within our Data Engineering department:
+At Cisco, AI isn’t just a technology—it’s a movement. Our AI teams are shaping the future by embedding intelligence into collaboration, networking, security, observability, and beyond. Our teams focus on building next-generation businesses powered by AI. We are a forward-thinking team of engineers, researchers, and innovators working at the intersection of deep learning, generative AI, and cutting-edge product design. The vibe is fast-paced, entrepreneurial, and collaborative, where every day offers the opportunity to create meaningful solutions with massive global impact.
 
-Data Pipeline Engineering: Our team is responsible for building and maintaining reliable data pipelines with a strong understanding of sources and use cases. We empower teams to access and understand data for decision-making, with resources and training to democratize data and enable a data-driven culture.
+Your Impact
 
-Data Platform & Infrastructure Engineering: Our team is responsible for building and maintaining core data platform services and related infrastructure that help MongoDB teams deploy their applications seamlessly with well-defined standards to build a truly self-service data-driven platform.
+As a Machine Learning Engineer, you will be at the forefront of Cisco’s generative AI strategy. You will design, train, and optimize large language models (LLMs) and multimodal AI systems to address ambitious real-world challenges across industries. You will drive innovation by developing scalable, high-performing AI solutions, collaborating across engineering and product teams, and guiding research into emerging technologies. Success in this role means delivering impactful AI capabilities that transform Cisco’s products and customer experiences while mentoring peers and evangelizing AI innovation both inside and outside the company.
+ 
 
-What we are looking for in you (qualifications)
+Minimum Qualifications
 
-In the process of receiving a Bachelor’s degree in Computer Science, Computer Engineering, or a related field.
-Have a foundation in computer science theory, with proficiencies in data structures, algorithms, and software design.
-Fluent in any one of the following programming languages: Java, Python, Go, C++, Javascript, Node.js - or a comparable object-oriented programming language.
-Graduation date in Spring 2027.
-What you'll find at MongoDB
+Students graduating in 2027
+Programming experience with Java, C++, Python, or related languages
+Hands-on experience in natural language processing, computer vision, or multimodal interaction.
+Experience using deep learning frameworks to train, fine-tune, and optimize GenAI models for performance and scalability.
+Experience designing and deploying proof-of-concepts and production-ready AI systems.
+ 
+Preferred Qualifications
 
-Authentic Culture: A workplace where you are encouraged to bring your whole self to work, we believe that Embracing the Power of Differences is the best way to broaden our own perspectives and foster innovation.
-Personalized Mentorship: Pair up with an engineering Mentor and a Program Advisor from the Early Talent Recruitment Team. 
-Work-Life Harmony: Embrace "Bloom for Interns" with access to mental health benefits, paid time off, free lunch, and more!
-Impactful Projects: Contribute to projects where you can Make it Matter - your meaningful work will see the light of day.
-Vibrant Community: Build connections with fellow interns and join after-work social events, virtual gatherings, and local city activities to create connections and friendships.
-MongoDB internships are full-time (40 hours/week) for 10 consecutive weeks lasting from dates in May until July. All interns are considered hybrid employees, designated the "in office" working model and are expected to be in their office location 3 days a week.
+Strong background in system design, software development, and production deployment at scale.
+Ability to transform ambiguous requirements into actionable deep learning solutions.
+Familiarity with state-of-the-art models and methods (e.g., CLIP, DALLE 2, diffusion models).
+Demonstrated contributions to the AI/ML community through top-tier publications, open-source projects, or leaderboard competitions.
+Why Cisco? 
+At Cisco, we’re revolutionizing how data and infrastructure connect and protect organizations in the AI era – and beyond. We’ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint.
 
-MongoDB, Inc. provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
+Fueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you’ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere. 
+
+We are Cisco, and our power starts with you. 
 
 
 ### INSTRUCTIONS
 
 **STEP 1: ANALYZE THE GAP**
 * Extract the top 5-10 "Hard Skills" and keywords from the JD (e.g., specific languages, frameworks, cloud tools, methodologies).
-* Compare these against the Base Resume.
+* Compare these against the given latex code Resume.
 
 **STEP 2: TAILOR THE CONTENT (Strict Rules)**
-1.  **Summary:** Rewrite the professional summary to strictly align with the JD's job title and core requirements. Use keywords from the JD immediately. Start with Software Developer always.
-2.  **Project Selection (Crucial):** * Select the top 3-4 projects from the Base Resume that best demonstrate the skills required in the JD. 
-    * **REMOVE** projects that are irrelevant to save space. (e.g., if it's a Backend role, prioritize "HawkeRoute" and "QuickIntell"; if AI/ML, prioritize "AutoPrep" and "Flinder").
+1.  **Summary:** Rewrite the professional summary to strictly align with the JD's job title and core requirements. Use keywords from the JD immediately. Start with Computer Science Pre Final year student always.
+2.  **Project Selection (Crucial):** * Select the top 3-4 projects from the Base Resume that best demonstrate the skills required in the JD. Write them in specifc detail.
+    * **REMOVE** projects that are irrelevant to save space. 
     * Do NOT Remove any experience, just enhance/edit them according to requirement.*
 3.  **Bullet Point Refinement:** * Rewrite existing bullet points to mirror the terminology used in the JD. 
     * *Example:* If JD asks for "reducing latency," ensure the "50ms" metric is highlighted. 
@@ -52,8 +59,10 @@ MongoDB, Inc. provides equal employment opportunities to all employees and appli
 **STEP 3: ATS OPTIMIZATION**
 * Ensure standard section headers are used (EXPERIENCE, PROJECTS, EDUCATION, SKILLS).
 * Remove complex formatting or columns (output as clean, plain text or Markdown).
+* Reverify for avoiding repition (keywords and stuff).
 
 ### FORMATTING RULES
 * **DO NOT** use flowery language or "AI buzzwords" (e.g., "Passionate about," "spearheaded"). Use strong action verbs (Architected, Engineered, Deployed).
-* **DO NOT** hallucinate. If the JD requires a skill (e.g., Java) that is NOT in the Base Resume, do add it.
+* **DO NOT** hallucinate. 
+* **AVOID REPITITION** of words, phrases and tone.
 

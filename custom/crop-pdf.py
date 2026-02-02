@@ -99,6 +99,16 @@ def crop_with_ghostscript(input_path, output_path):
         print(f"Ghostscript error: {e}")
         return False
 
+def get_page_count(input_path):
+    """Get the number of pages in the PDF."""
+    try:
+        import PyPDF2
+        with open(input_path, 'rb') as pdf_file:
+            reader = PyPDF2.PdfReader(pdf_file)
+            return len(reader.pages)
+    except Exception:
+        return None
+
 def main():
     if len(sys.argv) != 3:
         print("Usage: crop-pdf.py <input.pdf> <output.pdf>")
@@ -110,6 +120,14 @@ def main():
     if not os.path.exists(input_path):
         print(f"Error: Input file '{input_path}' not found")
         sys.exit(1)
+    
+    # Check page count - skip cropping for multi-page PDFs (A4 format)
+    page_count = get_page_count(input_path)
+    if page_count and page_count > 1:
+        print(f"PDF has {page_count} pages - skipping crop (A4 format)")
+        import shutil
+        shutil.copy(input_path, output_path)
+        return
     
     # Try different cropping methods in order of preference
     if crop_with_pdfcropmargins(input_path, output_path):
